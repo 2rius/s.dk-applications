@@ -114,7 +114,7 @@ for url in APPLICATION_URLS:
 
 print('All applications processed!')
 
-sortedApps = sorted(APPLICATIONS, key=lambda a: (a.rank, a.amount))
+sortedApps = sorted(APPLICATIONS, key=lambda a: (a.rank, -a.amount))
 
 filename = "applications.xlsx"
 workbook = Workbook()
