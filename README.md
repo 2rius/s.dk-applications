@@ -31,4 +31,3 @@ A better overview of application rankings on s.dk, because s.dk provides shit ov
     ```
 
 3. Enter account credentials for s.dk account
-4. 
